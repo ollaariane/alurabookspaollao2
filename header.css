@@ -14,8 +14,17 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
     }
         .container {
             display: flex;
             align-items: center;
         }
+        .container__botao:checked ~ .lista-menu {
+            display: block;
+          }
+          .lista-menu {
+            display: none;
+            position: absolute;
+  top: 100%;
+          }
