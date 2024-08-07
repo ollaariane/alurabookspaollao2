@@ -1,5 +1,6 @@
 @import url("style/header.css");
 @import url("styles/banner.css");
+@import url("styles/carrossel.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -14,3 +15,12 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+.carrossel__titulo {
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+  }
