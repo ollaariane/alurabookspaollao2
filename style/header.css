@@ -5,6 +5,7 @@
         background-image: url("../img/Menu.svg");
         background-repeat: no-repeat;
         background-position: center;
+        display: none;
     }
     
     .cabeçalho {
@@ -59,8 +60,6 @@
     }
     @media screen and (min-width: 1024px) {
         /* Estilos para tablets */
-      }
-      @media screen and (min-width: 1024px) {
         .container__titulo{
             display: none;
           }
@@ -78,5 +77,22 @@
           font-weight: 700;
         }
       }
+      .opções {
+        display: flex;
+        display: none;
+      }
+      .opções_item {
+        padding: 0 1em;
+        text-transform: uppercase;
+      }
+      .opções__link {
+        text-decoration: none;
+        color: var(--preto);
+      }
+      .container__imagem-transparente {
+        display: none;
+      }
+    
+    
       
       
