@@ -91,4 +91,9 @@
     display: block;
     top: 60%;
   }
+
+.card{
+     width: 60%;
+     margin: 2em auto
+}
   }
